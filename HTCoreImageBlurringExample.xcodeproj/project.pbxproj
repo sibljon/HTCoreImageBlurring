@@ -16,22 +16,11 @@
 		8DAF678E17ADCED5008EB715 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DAF678C17ADCED5008EB715 /* Main.storyboard */; };
 		8DAF679117ADCED5008EB715 /* JSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF679017ADCED5008EB715 /* JSViewController.m */; };
 		8DAF679317ADCED5008EB715 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DAF679217ADCED5008EB715 /* Images.xcassets */; };
-		8DAF679A17ADCED5008EB715 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DAF679917ADCED5008EB715 /* XCTest.framework */; };
-		8DAF679B17ADCED5008EB715 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DAF677A17ADCED5008EB715 /* Foundation.framework */; };
-		8DAF679C17ADCED5008EB715 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DAF677E17ADCED5008EB715 /* UIKit.framework */; };
-		8DAF67A417ADCED5008EB715 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8DAF67A217ADCED5008EB715 /* InfoPlist.strings */; };
-		8DAF67A617ADCED5008EB715 /* HTCoreImageBlurringExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF67A517ADCED5008EB715 /* HTCoreImageBlurringExampleTests.m */; };
+		8DAF67B417ADCF40008EB715 /* JSGradientMaskBlurViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF67AF17ADCF40008EB715 /* JSGradientMaskBlurViewController.m */; };
+		8DAF67B517ADCF40008EB715 /* JSStandardBlurViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF67B017ADCF40008EB715 /* JSStandardBlurViewController.m */; };
+		8DAF67B617ADCF40008EB715 /* trump.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8DAF67B317ADCF40008EB715 /* trump.jpeg */; };
+		8DAF67BA17ADCF79008EB715 /* UIImage+HTCoreImageBlurring.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF67B817ADCF76008EB715 /* UIImage+HTCoreImageBlurring.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		8DAF679D17ADCED5008EB715 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8DAF676F17ADCED5008EB715 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8DAF677617ADCED5008EB715;
-			remoteInfo = HTCoreImageBlurringExample;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		8DAF677717ADCED5008EB715 /* HTCoreImageBlurringExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HTCoreImageBlurringExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,11 +37,14 @@
 		8DAF678F17ADCED5008EB715 /* JSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSViewController.h; sourceTree = "<group>"; };
 		8DAF679017ADCED5008EB715 /* JSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSViewController.m; sourceTree = "<group>"; };
 		8DAF679217ADCED5008EB715 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		8DAF679817ADCED5008EB715 /* HTCoreImageBlurringExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HTCoreImageBlurringExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DAF679917ADCED5008EB715 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		8DAF67A117ADCED5008EB715 /* HTCoreImageBlurringExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HTCoreImageBlurringExampleTests-Info.plist"; sourceTree = "<group>"; };
-		8DAF67A317ADCED5008EB715 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		8DAF67A517ADCED5008EB715 /* HTCoreImageBlurringExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTCoreImageBlurringExampleTests.m; sourceTree = "<group>"; };
+		8DAF67AF17ADCF40008EB715 /* JSGradientMaskBlurViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSGradientMaskBlurViewController.m; sourceTree = "<group>"; };
+		8DAF67B017ADCF40008EB715 /* JSStandardBlurViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSStandardBlurViewController.m; sourceTree = "<group>"; };
+		8DAF67B117ADCF40008EB715 /* JSStandardBlurViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSStandardBlurViewController.h; sourceTree = "<group>"; };
+		8DAF67B217ADCF40008EB715 /* JSGradientMaskBlurViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSGradientMaskBlurViewController.h; sourceTree = "<group>"; };
+		8DAF67B317ADCF40008EB715 /* trump.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = trump.jpeg; sourceTree = "<group>"; };
+		8DAF67B817ADCF76008EB715 /* UIImage+HTCoreImageBlurring.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "UIImage+HTCoreImageBlurring.m"; path = "Classes/UIImage+HTCoreImageBlurring.m"; sourceTree = "<group>"; };
+		8DAF67B917ADCF76008EB715 /* UIImage+HTCoreImageBlurring.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIImage+HTCoreImageBlurring.h"; path = "Classes/UIImage+HTCoreImageBlurring.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,24 +58,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8DAF679517ADCED5008EB715 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8DAF679A17ADCED5008EB715 /* XCTest.framework in Frameworks */,
-				8DAF679C17ADCED5008EB715 /* UIKit.framework in Frameworks */,
-				8DAF679B17ADCED5008EB715 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		8DAF676E17ADCED5008EB715 = {
 			isa = PBXGroup;
 			children = (
+				8DAF67B717ADCF6B008EB715 /* Classes */,
 				8DAF678017ADCED5008EB715 /* HTCoreImageBlurringExample */,
-				8DAF679F17ADCED5008EB715 /* HTCoreImageBlurringExampleTests */,
 				8DAF677917ADCED5008EB715 /* Frameworks */,
 				8DAF677817ADCED5008EB715 /* Products */,
 			);
@@ -93,7 +75,6 @@
 			isa = PBXGroup;
 			children = (
 				8DAF677717ADCED5008EB715 /* HTCoreImageBlurringExample.app */,
-				8DAF679817ADCED5008EB715 /* HTCoreImageBlurringExampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,6 +93,11 @@
 		8DAF678017ADCED5008EB715 /* HTCoreImageBlurringExample */ = {
 			isa = PBXGroup;
 			children = (
+				8DAF67AF17ADCF40008EB715 /* JSGradientMaskBlurViewController.m */,
+				8DAF67B017ADCF40008EB715 /* JSStandardBlurViewController.m */,
+				8DAF67B117ADCF40008EB715 /* JSStandardBlurViewController.h */,
+				8DAF67B217ADCF40008EB715 /* JSGradientMaskBlurViewController.h */,
+				8DAF67B317ADCF40008EB715 /* trump.jpeg */,
 				8DAF678917ADCED5008EB715 /* JSAppDelegate.h */,
 				8DAF678A17ADCED5008EB715 /* JSAppDelegate.m */,
 				8DAF678C17ADCED5008EB715 /* Main.storyboard */,
@@ -134,22 +120,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		8DAF679F17ADCED5008EB715 /* HTCoreImageBlurringExampleTests */ = {
+		8DAF67B717ADCF6B008EB715 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				8DAF67A517ADCED5008EB715 /* HTCoreImageBlurringExampleTests.m */,
-				8DAF67A017ADCED5008EB715 /* Supporting Files */,
+				8DAF67B817ADCF76008EB715 /* UIImage+HTCoreImageBlurring.m */,
+				8DAF67B917ADCF76008EB715 /* UIImage+HTCoreImageBlurring.h */,
 			);
-			path = HTCoreImageBlurringExampleTests;
-			sourceTree = "<group>";
-		};
-		8DAF67A017ADCED5008EB715 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				8DAF67A117ADCED5008EB715 /* HTCoreImageBlurringExampleTests-Info.plist */,
-				8DAF67A217ADCED5008EB715 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,24 +149,6 @@
 			productReference = 8DAF677717ADCED5008EB715 /* HTCoreImageBlurringExample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8DAF679717ADCED5008EB715 /* HTCoreImageBlurringExampleTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8DAF67AC17ADCED5008EB715 /* Build configuration list for PBXNativeTarget "HTCoreImageBlurringExampleTests" */;
-			buildPhases = (
-				8DAF679417ADCED5008EB715 /* Sources */,
-				8DAF679517ADCED5008EB715 /* Frameworks */,
-				8DAF679617ADCED5008EB715 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8DAF679E17ADCED5008EB715 /* PBXTargetDependency */,
-			);
-			name = HTCoreImageBlurringExampleTests;
-			productName = HTCoreImageBlurringExampleTests;
-			productReference = 8DAF679817ADCED5008EB715 /* HTCoreImageBlurringExampleTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -199,11 +158,6 @@
 				CLASSPREFIX = JS;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Jonathan Sibley";
-				TargetAttributes = {
-					8DAF679717ADCED5008EB715 = {
-						TestTargetID = 8DAF677617ADCED5008EB715;
-					};
-				};
 			};
 			buildConfigurationList = 8DAF677217ADCED5008EB715 /* Build configuration list for PBXProject "HTCoreImageBlurringExample" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -219,7 +173,6 @@
 			projectRoot = "";
 			targets = (
 				8DAF677617ADCED5008EB715 /* HTCoreImageBlurringExample */,
-				8DAF679717ADCED5008EB715 /* HTCoreImageBlurringExampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -231,15 +184,8 @@
 			files = (
 				8DAF679317ADCED5008EB715 /* Images.xcassets in Resources */,
 				8DAF678517ADCED5008EB715 /* InfoPlist.strings in Resources */,
+				8DAF67B617ADCF40008EB715 /* trump.jpeg in Resources */,
 				8DAF678E17ADCED5008EB715 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8DAF679617ADCED5008EB715 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8DAF67A417ADCED5008EB715 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,29 +196,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DAF67B417ADCF40008EB715 /* JSGradientMaskBlurViewController.m in Sources */,
 				8DAF678717ADCED5008EB715 /* main.m in Sources */,
 				8DAF679117ADCED5008EB715 /* JSViewController.m in Sources */,
+				8DAF67B517ADCF40008EB715 /* JSStandardBlurViewController.m in Sources */,
 				8DAF678B17ADCED5008EB715 /* JSAppDelegate.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8DAF679417ADCED5008EB715 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8DAF67A617ADCED5008EB715 /* HTCoreImageBlurringExampleTests.m in Sources */,
+				8DAF67BA17ADCF79008EB715 /* UIImage+HTCoreImageBlurring.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		8DAF679E17ADCED5008EB715 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8DAF677617ADCED5008EB715 /* HTCoreImageBlurringExample */;
-			targetProxy = 8DAF679D17ADCED5008EB715 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		8DAF678317ADCED5008EB715 /* InfoPlist.strings */ = {
@@ -289,14 +222,6 @@
 				8DAF678D17ADCED5008EB715 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		8DAF67A217ADCED5008EB715 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8DAF67A317ADCED5008EB715 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -396,46 +321,6 @@
 			};
 			name = Release;
 		};
-		8DAF67AD17ADCED5008EB715 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HTCoreImageBlurringExample.app/HTCoreImageBlurringExample";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "HTCoreImageBlurringExample/HTCoreImageBlurringExample-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "HTCoreImageBlurringExampleTests/HTCoreImageBlurringExampleTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		8DAF67AE17ADCED5008EB715 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HTCoreImageBlurringExample.app/HTCoreImageBlurringExample";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "HTCoreImageBlurringExample/HTCoreImageBlurringExample-Prefix.pch";
-				INFOPLIST_FILE = "HTCoreImageBlurringExampleTests/HTCoreImageBlurringExampleTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -453,14 +338,6 @@
 			buildConfigurations = (
 				8DAF67AA17ADCED5008EB715 /* Debug */,
 				8DAF67AB17ADCED5008EB715 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		8DAF67AC17ADCED5008EB715 /* Build configuration list for PBXNativeTarget "HTCoreImageBlurringExampleTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8DAF67AD17ADCED5008EB715 /* Debug */,
-				8DAF67AE17ADCED5008EB715 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
