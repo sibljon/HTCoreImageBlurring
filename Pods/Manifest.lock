@@ -1,0 +1,10 @@
+PODS:
+  - HTCoreImage (1.0.1)
+
+DEPENDENCIES:
+  - HTCoreImage
+
+SPEC CHECKSUMS:
+  HTCoreImage: 1137d94efdd8582bea7fd36aead934f9e831be08
+
+COCOAPODS: 0.22.3
