@@ -1,915 +1,391 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>45D843A1EBC7445C95842CF5</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>51793AD1CECF4F849CC56388</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Pods.xcconfig</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>6D6BA54D1515422B88E40DD7</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Pods-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>8DAF676E17ADCED5008EB715</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8DAF67B717ADCF6B008EB715</string>
-				<string>8DAF678017ADCED5008EB715</string>
-				<string>8DAF677917ADCED5008EB715</string>
-				<string>8DAF677817ADCED5008EB715</string>
-				<string>51793AD1CECF4F849CC56388</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8DAF676F17ADCED5008EB715</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>CLASSPREFIX</key>
-				<string>JS</string>
-				<key>LastUpgradeCheck</key>
-				<string>0500</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>Jonathan Sibley</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>8DAF677217ADCED5008EB715</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-				<string>Base</string>
-			</array>
-			<key>mainGroup</key>
-			<string>8DAF676E17ADCED5008EB715</string>
-			<key>productRefGroup</key>
-			<string>8DAF677817ADCED5008EB715</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>8DAF677617ADCED5008EB715</string>
-			</array>
-		</dict>
-		<key>8DAF677217ADCED5008EB715</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>8DAF67A717ADCED5008EB715</string>
-				<string>8DAF67A817ADCED5008EB715</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>8DAF677317ADCED5008EB715</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>8DAF67B417ADCF40008EB715</string>
-				<string>8DAF678717ADCED5008EB715</string>
-				<string>8DAF679117ADCED5008EB715</string>
-				<string>8DAF67B517ADCF40008EB715</string>
-				<string>8DAF678B17ADCED5008EB715</string>
-				<string>8DAF67BA17ADCF79008EB715</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8DAF677417ADCED5008EB715</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>8DAF677D17ADCED5008EB715</string>
-				<string>8DAF677F17ADCED5008EB715</string>
-				<string>8DAF677B17ADCED5008EB715</string>
-				<string>DA21BA5EBC4F4E53AF196754</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8DAF677517ADCED5008EB715</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>8DAF679317ADCED5008EB715</string>
-				<string>8DAF678517ADCED5008EB715</string>
-				<string>8DAF67B617ADCF40008EB715</string>
-				<string>8DAF678E17ADCED5008EB715</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8DAF677617ADCED5008EB715</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>8DAF67A917ADCED5008EB715</string>
-			<key>buildPhases</key>
-			<array>
-				<string>BB630CC5C4FD4075B3607BB7</string>
-				<string>8DAF677317ADCED5008EB715</string>
-				<string>8DAF677417ADCED5008EB715</string>
-				<string>8DAF677517ADCED5008EB715</string>
-				<string>6D6BA54D1515422B88E40DD7</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>HTCoreImageBlurringExample</string>
-			<key>productName</key>
-			<string>HTCoreImageBlurringExample</string>
-			<key>productReference</key>
-			<string>8DAF677717ADCED5008EB715</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>8DAF677717ADCED5008EB715</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>HTCoreImageBlurringExample.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>8DAF677817ADCED5008EB715</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8DAF677717ADCED5008EB715</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8DAF677917ADCED5008EB715</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8DAF677A17ADCED5008EB715</string>
-				<string>8DAF677C17ADCED5008EB715</string>
-				<string>8DAF677E17ADCED5008EB715</string>
-				<string>8DAF679917ADCED5008EB715</string>
-				<string>45D843A1EBC7445C95842CF5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8DAF677A17ADCED5008EB715</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>8DAF677B17ADCED5008EB715</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8DAF677A17ADCED5008EB715</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8DAF677C17ADCED5008EB715</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreGraphics.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/CoreGraphics.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>8DAF677D17ADCED5008EB715</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8DAF677C17ADCED5008EB715</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8DAF677E17ADCED5008EB715</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>UIKit.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/UIKit.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>8DAF677F17ADCED5008EB715</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8DAF677E17ADCED5008EB715</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8DAF678017ADCED5008EB715</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8DAF67AF17ADCF40008EB715</string>
-				<string>8DAF67B017ADCF40008EB715</string>
-				<string>8DAF67B117ADCF40008EB715</string>
-				<string>8DAF67B217ADCF40008EB715</string>
-				<string>8DAF67B317ADCF40008EB715</string>
-				<string>8DAF678917ADCED5008EB715</string>
-				<string>8DAF678A17ADCED5008EB715</string>
-				<string>8DAF678C17ADCED5008EB715</string>
-				<string>8DAF678F17ADCED5008EB715</string>
-				<string>8DAF679017ADCED5008EB715</string>
-				<string>8DAF679217ADCED5008EB715</string>
-				<string>8DAF678117ADCED5008EB715</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>HTCoreImageBlurringExample</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8DAF678117ADCED5008EB715</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8DAF678217ADCED5008EB715</string>
-				<string>8DAF678317ADCED5008EB715</string>
-				<string>8DAF678617ADCED5008EB715</string>
-				<string>8DAF678817ADCED5008EB715</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8DAF678217ADCED5008EB715</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>HTCoreImageBlurringExample-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8DAF678317ADCED5008EB715</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8DAF678417ADCED5008EB715</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8DAF678417ADCED5008EB715</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>en.lproj/InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8DAF678517ADCED5008EB715</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8DAF678317ADCED5008EB715</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8DAF678617ADCED5008EB715</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>main.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8DAF678717ADCED5008EB715</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8DAF678617ADCED5008EB715</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8DAF678817ADCED5008EB715</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>HTCoreImageBlurringExample-Prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8DAF678917ADCED5008EB715</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>JSAppDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8DAF678A17ADCED5008EB715</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>JSAppDelegate.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8DAF678B17ADCED5008EB715</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8DAF678A17ADCED5008EB715</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8DAF678C17ADCED5008EB715</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8DAF678D17ADCED5008EB715</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8DAF678D17ADCED5008EB715</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8DAF678E17ADCED5008EB715</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8DAF678C17ADCED5008EB715</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8DAF678F17ADCED5008EB715</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>JSViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8DAF679017ADCED5008EB715</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>JSViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8DAF679117ADCED5008EB715</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8DAF679017ADCED5008EB715</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8DAF679217ADCED5008EB715</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Images.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8DAF679317ADCED5008EB715</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8DAF679217ADCED5008EB715</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8DAF679917ADCED5008EB715</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>XCTest.framework</string>
-			<key>path</key>
-			<string>Library/Frameworks/XCTest.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>8DAF67A717ADCED5008EB715</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>8DAF67A817ADCED5008EB715</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>8DAF67A917ADCED5008EB715</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>8DAF67AA17ADCED5008EB715</string>
-				<string>8DAF67AB17ADCED5008EB715</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>8DAF67AA17ADCED5008EB715</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>51793AD1CECF4F849CC56388</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
-				<string>LaunchImage</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>HTCoreImageBlurringExample/HTCoreImageBlurringExample-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>HTCoreImageBlurringExample/HTCoreImageBlurringExample-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>8DAF67AB17ADCED5008EB715</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>51793AD1CECF4F849CC56388</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
-				<string>LaunchImage</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>HTCoreImageBlurringExample/HTCoreImageBlurringExample-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>HTCoreImageBlurringExample/HTCoreImageBlurringExample-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>8DAF67AF17ADCF40008EB715</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>JSGradientMaskBlurViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8DAF67B017ADCF40008EB715</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>JSStandardBlurViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8DAF67B117ADCF40008EB715</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>JSStandardBlurViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8DAF67B217ADCF40008EB715</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>JSGradientMaskBlurViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8DAF67B317ADCF40008EB715</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.jpeg</string>
-			<key>path</key>
-			<string>trump.jpeg</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8DAF67B417ADCF40008EB715</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8DAF67AF17ADCF40008EB715</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8DAF67B517ADCF40008EB715</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8DAF67B017ADCF40008EB715</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8DAF67B617ADCF40008EB715</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8DAF67B317ADCF40008EB715</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8DAF67B717ADCF6B008EB715</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8DAF67B817ADCF76008EB715</string>
-				<string>8DAF67B917ADCF76008EB715</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Classes</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8DAF67B817ADCF76008EB715</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>UIImage+HTCoreImageBlurring.m</string>
-			<key>path</key>
-			<string>Classes/UIImage+HTCoreImageBlurring.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8DAF67B917ADCF76008EB715</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UIImage+HTCoreImageBlurring.h</string>
-			<key>path</key>
-			<string>Classes/UIImage+HTCoreImageBlurring.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8DAF67BA17ADCF79008EB715</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8DAF67B817ADCF76008EB715</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BB630CC5C4FD4075B3607BB7</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>DA21BA5EBC4F4E53AF196754</key>
-		<dict>
-			<key>fileRef</key>
-			<string>45D843A1EBC7445C95842CF5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>8DAF676F17ADCED5008EB715</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DAF677B17ADCED5008EB715 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DAF677A17ADCED5008EB715 /* Foundation.framework */; };
+		8DAF677D17ADCED5008EB715 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DAF677C17ADCED5008EB715 /* CoreGraphics.framework */; };
+		8DAF677F17ADCED5008EB715 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DAF677E17ADCED5008EB715 /* UIKit.framework */; };
+		8DAF678517ADCED5008EB715 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8DAF678317ADCED5008EB715 /* InfoPlist.strings */; };
+		8DAF678717ADCED5008EB715 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF678617ADCED5008EB715 /* main.m */; };
+		8DAF678B17ADCED5008EB715 /* JSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF678A17ADCED5008EB715 /* JSAppDelegate.m */; };
+		8DAF678E17ADCED5008EB715 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DAF678C17ADCED5008EB715 /* Main.storyboard */; };
+		8DAF679117ADCED5008EB715 /* JSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF679017ADCED5008EB715 /* JSViewController.m */; };
+		8DAF679317ADCED5008EB715 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DAF679217ADCED5008EB715 /* Images.xcassets */; };
+		8DAF67B417ADCF40008EB715 /* JSGradientMaskBlurViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF67AF17ADCF40008EB715 /* JSGradientMaskBlurViewController.m */; };
+		8DAF67B517ADCF40008EB715 /* JSStandardBlurViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF67B017ADCF40008EB715 /* JSStandardBlurViewController.m */; };
+		8DAF67BA17ADCF79008EB715 /* UIImage+HTCoreImageBlurring.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF67B817ADCF76008EB715 /* UIImage+HTCoreImageBlurring.m */; };
+		8DAF67C017ADD3B9008EB715 /* london_eye.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DAF67BF17ADD3B9008EB715 /* london_eye.png */; };
+		DA21BA5EBC4F4E53AF196754 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45D843A1EBC7445C95842CF5 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		45D843A1EBC7445C95842CF5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		51793AD1CECF4F849CC56388 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		8DAF677717ADCED5008EB715 /* HTCoreImageBlurringExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HTCoreImageBlurringExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DAF677A17ADCED5008EB715 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8DAF677C17ADCED5008EB715 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8DAF677E17ADCED5008EB715 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8DAF678217ADCED5008EB715 /* HTCoreImageBlurringExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HTCoreImageBlurringExample-Info.plist"; sourceTree = "<group>"; };
+		8DAF678417ADCED5008EB715 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8DAF678617ADCED5008EB715 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8DAF678817ADCED5008EB715 /* HTCoreImageBlurringExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HTCoreImageBlurringExample-Prefix.pch"; sourceTree = "<group>"; };
+		8DAF678917ADCED5008EB715 /* JSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSAppDelegate.h; sourceTree = "<group>"; };
+		8DAF678A17ADCED5008EB715 /* JSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSAppDelegate.m; sourceTree = "<group>"; };
+		8DAF678D17ADCED5008EB715 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8DAF678F17ADCED5008EB715 /* JSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSViewController.h; sourceTree = "<group>"; };
+		8DAF679017ADCED5008EB715 /* JSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSViewController.m; sourceTree = "<group>"; };
+		8DAF679217ADCED5008EB715 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8DAF679917ADCED5008EB715 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8DAF67AF17ADCF40008EB715 /* JSGradientMaskBlurViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSGradientMaskBlurViewController.m; sourceTree = "<group>"; };
+		8DAF67B017ADCF40008EB715 /* JSStandardBlurViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSStandardBlurViewController.m; sourceTree = "<group>"; };
+		8DAF67B117ADCF40008EB715 /* JSStandardBlurViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSStandardBlurViewController.h; sourceTree = "<group>"; };
+		8DAF67B217ADCF40008EB715 /* JSGradientMaskBlurViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSGradientMaskBlurViewController.h; sourceTree = "<group>"; };
+		8DAF67B817ADCF76008EB715 /* UIImage+HTCoreImageBlurring.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "UIImage+HTCoreImageBlurring.m"; path = "Classes/UIImage+HTCoreImageBlurring.m"; sourceTree = "<group>"; };
+		8DAF67B917ADCF76008EB715 /* UIImage+HTCoreImageBlurring.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIImage+HTCoreImageBlurring.h"; path = "Classes/UIImage+HTCoreImageBlurring.h"; sourceTree = "<group>"; };
+		8DAF67BF17ADD3B9008EB715 /* london_eye.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = london_eye.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DAF677417ADCED5008EB715 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DAF677D17ADCED5008EB715 /* CoreGraphics.framework in Frameworks */,
+				8DAF677F17ADCED5008EB715 /* UIKit.framework in Frameworks */,
+				8DAF677B17ADCED5008EB715 /* Foundation.framework in Frameworks */,
+				DA21BA5EBC4F4E53AF196754 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8DAF676E17ADCED5008EB715 = {
+			isa = PBXGroup;
+			children = (
+				8DAF67B717ADCF6B008EB715 /* Classes */,
+				8DAF678017ADCED5008EB715 /* HTCoreImageBlurringExample */,
+				8DAF677917ADCED5008EB715 /* Frameworks */,
+				8DAF677817ADCED5008EB715 /* Products */,
+				51793AD1CECF4F849CC56388 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		8DAF677817ADCED5008EB715 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DAF677717ADCED5008EB715 /* HTCoreImageBlurringExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DAF677917ADCED5008EB715 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DAF677A17ADCED5008EB715 /* Foundation.framework */,
+				8DAF677C17ADCED5008EB715 /* CoreGraphics.framework */,
+				8DAF677E17ADCED5008EB715 /* UIKit.framework */,
+				8DAF679917ADCED5008EB715 /* XCTest.framework */,
+				45D843A1EBC7445C95842CF5 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8DAF678017ADCED5008EB715 /* HTCoreImageBlurringExample */ = {
+			isa = PBXGroup;
+			children = (
+				8DAF67BF17ADD3B9008EB715 /* london_eye.png */,
+				8DAF67AF17ADCF40008EB715 /* JSGradientMaskBlurViewController.m */,
+				8DAF67B017ADCF40008EB715 /* JSStandardBlurViewController.m */,
+				8DAF67B117ADCF40008EB715 /* JSStandardBlurViewController.h */,
+				8DAF67B217ADCF40008EB715 /* JSGradientMaskBlurViewController.h */,
+				8DAF678917ADCED5008EB715 /* JSAppDelegate.h */,
+				8DAF678A17ADCED5008EB715 /* JSAppDelegate.m */,
+				8DAF678C17ADCED5008EB715 /* Main.storyboard */,
+				8DAF678F17ADCED5008EB715 /* JSViewController.h */,
+				8DAF679017ADCED5008EB715 /* JSViewController.m */,
+				8DAF679217ADCED5008EB715 /* Images.xcassets */,
+				8DAF678117ADCED5008EB715 /* Supporting Files */,
+			);
+			path = HTCoreImageBlurringExample;
+			sourceTree = "<group>";
+		};
+		8DAF678117ADCED5008EB715 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8DAF678217ADCED5008EB715 /* HTCoreImageBlurringExample-Info.plist */,
+				8DAF678317ADCED5008EB715 /* InfoPlist.strings */,
+				8DAF678617ADCED5008EB715 /* main.m */,
+				8DAF678817ADCED5008EB715 /* HTCoreImageBlurringExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8DAF67B717ADCF6B008EB715 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8DAF67B817ADCF76008EB715 /* UIImage+HTCoreImageBlurring.m */,
+				8DAF67B917ADCF76008EB715 /* UIImage+HTCoreImageBlurring.h */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DAF677617ADCED5008EB715 /* HTCoreImageBlurringExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DAF67A917ADCED5008EB715 /* Build configuration list for PBXNativeTarget "HTCoreImageBlurringExample" */;
+			buildPhases = (
+				BB630CC5C4FD4075B3607BB7 /* Check Pods Manifest.lock */,
+				8DAF677317ADCED5008EB715 /* Sources */,
+				8DAF677417ADCED5008EB715 /* Frameworks */,
+				8DAF677517ADCED5008EB715 /* Resources */,
+				6D6BA54D1515422B88E40DD7 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HTCoreImageBlurringExample;
+			productName = HTCoreImageBlurringExample;
+			productReference = 8DAF677717ADCED5008EB715 /* HTCoreImageBlurringExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8DAF676F17ADCED5008EB715 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JS;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Jonathan Sibley";
+			};
+			buildConfigurationList = 8DAF677217ADCED5008EB715 /* Build configuration list for PBXProject "HTCoreImageBlurringExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8DAF676E17ADCED5008EB715;
+			productRefGroup = 8DAF677817ADCED5008EB715 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DAF677617ADCED5008EB715 /* HTCoreImageBlurringExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DAF677517ADCED5008EB715 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DAF679317ADCED5008EB715 /* Images.xcassets in Resources */,
+				8DAF67C017ADD3B9008EB715 /* london_eye.png in Resources */,
+				8DAF678517ADCED5008EB715 /* InfoPlist.strings in Resources */,
+				8DAF678E17ADCED5008EB715 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6D6BA54D1515422B88E40DD7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB630CC5C4FD4075B3607BB7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DAF677317ADCED5008EB715 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DAF67B417ADCF40008EB715 /* JSGradientMaskBlurViewController.m in Sources */,
+				8DAF678717ADCED5008EB715 /* main.m in Sources */,
+				8DAF679117ADCED5008EB715 /* JSViewController.m in Sources */,
+				8DAF67B517ADCF40008EB715 /* JSStandardBlurViewController.m in Sources */,
+				8DAF678B17ADCED5008EB715 /* JSAppDelegate.m in Sources */,
+				8DAF67BA17ADCF79008EB715 /* UIImage+HTCoreImageBlurring.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8DAF678317ADCED5008EB715 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DAF678417ADCED5008EB715 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8DAF678C17ADCED5008EB715 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DAF678D17ADCED5008EB715 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8DAF67A717ADCED5008EB715 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8DAF67A817ADCED5008EB715 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DAF67AA17ADCED5008EB715 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51793AD1CECF4F849CC56388 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HTCoreImageBlurringExample/HTCoreImageBlurringExample-Prefix.pch";
+				INFOPLIST_FILE = "HTCoreImageBlurringExample/HTCoreImageBlurringExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8DAF67AB17ADCED5008EB715 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51793AD1CECF4F849CC56388 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HTCoreImageBlurringExample/HTCoreImageBlurringExample-Prefix.pch";
+				INFOPLIST_FILE = "HTCoreImageBlurringExample/HTCoreImageBlurringExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8DAF677217ADCED5008EB715 /* Build configuration list for PBXProject "HTCoreImageBlurringExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DAF67A717ADCED5008EB715 /* Debug */,
+				8DAF67A817ADCED5008EB715 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DAF67A917ADCED5008EB715 /* Build configuration list for PBXNativeTarget "HTCoreImageBlurringExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DAF67AA17ADCED5008EB715 /* Debug */,
+				8DAF67AB17ADCED5008EB715 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8DAF676F17ADCED5008EB715 /* Project object */;
+}

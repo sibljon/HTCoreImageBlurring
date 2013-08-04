@@ -16,10 +16,10 @@
 
 + (void)blurImage:(UIImage *)sourceImage
        blurRadius:(CGFloat)blurRadius
-       cropInset:(CGFloat)cropInset
-gradientMaskStart:(CGFloat)gradientMaskStart
-gradientMaskFinish:(CGFloat)gradientMaskFinish
-       completion:(HTCoreImageBlurCompletion)completion
+         cropInset:(CGFloat)cropInset
+gradientMaskBottom:(CGFloat)gradientMaskBottom
+   gradientMaskTop:(CGFloat)gradientMaskTop
+        completion:(HTCoreImageBlurCompletion)completion
 {
     UIImage *sourceUIImage = sourceImage;
     CIImage *sourceCIImage = [sourceUIImage toCIImage];
@@ -28,7 +28,7 @@ gradientMaskFinish:(CGFloat)gradientMaskFinish
 
     NSArray *filters = [[self class] coreImageBlurFilterArrayForRadius:blurRadius cropInset:cropInset sourceImageSize:sourceImageRect.size];
 
-    filters = [filters arrayByAddingObject:[[self class] filterToMaskBlurredImageAndBlendWithSourceImage:sourceCIImage gradientMaskStart:gradientMaskStart gradientMaskFinish:gradientMaskFinish]];
+    filters = [filters arrayByAddingObject:[[self class] filterToMaskBlurredImageAndBlendWithSourceImage:sourceCIImage gradientMaskBottom:gradientMaskBottom gradientMaskTop:gradientMaskTop]];
 
     CIImage *resultImage = [sourceCIImage imageByApplyingFilters:filters];
     [resultImage processToUIImageCompletion:^(UIImage *image)
@@ -41,13 +41,13 @@ gradientMaskFinish:(CGFloat)gradientMaskFinish
 }
 
 + (CIFilter *)filterToMaskBlurredImageAndBlendWithSourceImage:(CIImage *)sourceImage
-                                            gradientMaskStart:(CGFloat)gradientMaskStart
-                                           gradientMaskFinish:(CGFloat)gradientMaskFinish
+                                            gradientMaskBottom:(CGFloat)gradientMaskBottom
+                                           gradientMaskTop:(CGFloat)gradientMaskTop
 {
     CGRect sourceImageRect = sourceImage.extent;
 
-    CIFilter *bottomGradient = [CIFilter filterLinearGradientWithPoint0:CGPointMake(0, gradientMaskStart * sourceImageRect.size.height)
-                                                                 point1:CGPointMake(0, gradientMaskFinish * sourceImageRect.size.height)
+    CIFilter *bottomGradient = [CIFilter filterLinearGradientWithPoint0:CGPointMake(0, gradientMaskBottom * sourceImageRect.size.height)
+                                                                 point1:CGPointMake(0, gradientMaskTop * sourceImageRect.size.height)
                                                                  color0:[UIColor colorWithRed:0 green:1 blue:0 alpha:1]
                                                                  color1:[UIColor colorWithRed:0 green:1 blue:0 alpha:0]];
     CIFilter *bottomGradientCrop = [CIFilter filterCropWithRect:sourceImageRect];

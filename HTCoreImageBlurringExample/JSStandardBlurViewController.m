@@ -22,7 +22,7 @@
 {
     [super viewDidLoad];
 
-    UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"flowers"]];
+    UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"london_eye"]];
     [self.view insertSubview:imageView atIndex:0];
     imageView.frame = self.view.bounds;
     imageView.autoresizingMask = UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth;
@@ -31,7 +31,7 @@
     UITapGestureRecognizer *tapGestureRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapped:)];
     [self.view addGestureRecognizer:tapGestureRecognizer];
 
-    [UIImage blurImage:[UIImage imageNamed:@"flowers"]
+    [UIImage blurImage:[UIImage imageNamed:@"london_eye"]
             blurRadius:3
              cropInset:7
             completion:^(UIImage *resultImage)

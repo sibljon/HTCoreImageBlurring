@@ -20,10 +20,10 @@ typedef void (^HTCoreImageBlurCompletion)(UIImage *resultImage);
 
 + (void)blurImage:(UIImage *)sourceImage
        blurRadius:(CGFloat)blurRadius
-        cropInset:(CGFloat)cropInset
-gradientMaskStart:(CGFloat)gradientMaskStart
-gradientMaskFinish:(CGFloat)gradientMaskFinish
-       completion:(HTCoreImageBlurCompletion)completion;
+         cropInset:(CGFloat)cropInset
+gradientMaskBottom:(CGFloat)gradientMaskBottom
+   gradientMaskTop:(CGFloat)gradientMaskTop
+        completion:(HTCoreImageBlurCompletion)completion;
 
 + (void)blurImage:(UIImage *)sourceImage
        blurRadius:(CGFloat)blurRadius
